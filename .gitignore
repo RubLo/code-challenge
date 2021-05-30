@@ -1,0 +1,32 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# output
+/coverage
+/dist
+/build
+/styleguide
+/test-results
+/visuals/new
+/visuals/diff
+
+# dependencies
+/node_modules*
+/one.ui.client
+one.ui.client/
+one.ui.client*
+
+# misc
+*.
+.DS_Store
+.env
+.history
+npm-debug.log*
+.idea
+# .npmrc
+/lsg.components.iml
+*.tgz
+/.project
+/stats.html
+/scripts/stats.html
